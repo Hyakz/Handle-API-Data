@@ -1,109 +1,323 @@
 [
-    "Rick Sanchez",
-    "Adjudicator Rick",
-    "Alien Rick",
-    "Antenna Rick",
-    "Aqua Rick",
-    "Black Rick",
-    "Bootleg Portal Chemist Rick",
-    "Commander Rick",
-    "Cool Rick",
-    "Cop Rick",
-    "Cowboy Rick",
-    "Cronenberg Rick",
-    "Cyclops Rick",
-    "Doofus Rick",
-    "Evil Rick",
-    "Garment District Rick",
-    "Insurance Rick",
-    "Investigator Rick",
-    "Juggling Rick",
-    "Maximums Rickimus",
-    "Mechanical Rick",
-    "Mega Fruit Farmer Rick",
-    "Morty Rick",
-    "Pickle Rick",
-    "Plumber Rick",
-    "Quantum Rick",
-    "Regional Manager Rick",
-    "Reverse Rick Outrage",
-    "Rick D. Sanchez III",
-    "Rick Guilt Rick",
-    "Rick Prime",
-    "Rick D-99",
-    "Rick D716",
-    "Rick D716-B",
-    "Rick D716-C",
-    "Rick Sanchez",
-    "Rick J-22",
-    "Rick K-22",
-    "Rick Sanchez",
-    "Ricktiminus Sancheziminius",
-    "Robot Rick",
-    "Simple Rick",
-    "Slow Rick",
-    "Solicitor Rick",
-    "Teacher Rick",
-    "The Scientist Formerly Known as Rick",
-    "Tiny Rick",
-    "Toxic Rick",
-    "Wall Crawling Rick",
-    "Unknown Rick",
-    "Woman Rick",
-    "Yellow Shirt Rick",
-    "Zeta Alpha Rick",
-    "Super Weird Rick",
-    "Communication's Responsible Rick",
-    "Teleportation's Responsible Rick",
-    "SEAL Team Rick",
-    "SEAL Team Rick",
-    "SEAL Team Rick",
-    "SEAL Team Rick",
-    "Baby Rick",
-    "Hairdresser Rick",
-    "Journalist Rick",
-    "Private Sector Rick",
-    "Retired General Rick",
-    "Secret Service Rick",
-    "Steve Jobs Rick",
-    "Sheik Rick",
-    "Modern Rick",
-    "Tan Rick",
-    "Visor Rick",
-    "Colonial Rick",
-    "P-Coat Rick",
-    "Hologram Rick",
-    "Fascist Rick",
-    "Fascist Rick’s Clone",
-    "Fascist Shrimp Rick",
-    "Fascist Shrimp Rick’s Clone",
-    "Fascist Teddy Bear Rick",
-    "Fascist Teddy Bear Rick’s Clone",
-    "Wasp Rick",
-    "Wasp Rick’s Clone",
-    "Rick Sanchez",
-    "Rick’s Disguise",
-    "Scarecrow Rick",
-    "Glockenspiel Rick",
-    "Wicker Rick",
-    "Metal Rick",
-    "Gun Brain Rick",
-    "Squid Costume Rick",
-    "Too Cute to Murder Rick",
-    "Turkey Rick",
-    "Big Fat rick",
-    "Hothead Rick",
-    "Wrap-it-up Little Rick",
-    "Yo-yo Rick",
-    "Young Memory Rick",
-    "Rick's Garage",
-    "Memory Rick",
-    "Memory Rick",
-    "Stan Lee Rick",
-    "Bald Rick",
-    "Punk Rick",
-    "Party Rick",
-    "Scar Rick",
-    "Long Hair Rick",
-    "Redhead Rick"
+  {
+    "name": "Rick Sanchez"
+  },
+  {
+    "name": "Adjudicator Rick"
+  },
+  {
+    "name": "Alien Rick"
+  },
+  {
+    "name": "Antenna Rick"
+  },
+  {
+    "name": "Aqua Rick"
+  },
+  {
+    "name": "Black Rick"
+  },
+  {
+    "name": "Bootleg Portal Chemist Rick"
+  },
+  {
+    "name": "Commander Rick"
+  },
+  {
+    "name": "Cool Rick"
+  },
+  {
+    "name": "Cop Rick"
+  },
+  {
+    "name": "Cowboy Rick"
+  },
+  {
+    "name": "Cronenberg Rick"
+  },
+  {
+    "name": "Cyclops Rick"
+  },
+  {
+    "name": "Doofus Rick"
+  },
+  {
+    "name": "Evil Rick"
+  },
+  {
+    "name": "Garment District Rick"
+  },
+  {
+    "name": "Insurance Rick"
+  },
+  {
+    "name": "Investigator Rick"
+  },
+  {
+    "name": "Juggling Rick"
+  },
+  {
+    "name": "Maximums Rickimus"
+  },
+  {
+    "name": "Mechanical Rick"
+  },
+  {
+    "name": "Mega Fruit Farmer Rick"
+  },
+  {
+    "name": "Morty Rick"
+  },
+  {
+    "name": "Pickle Rick"
+  },
+  {
+    "name": "Plumber Rick"
+  },
+  {
+    "name": "Quantum Rick"
+  },
+  {
+    "name": "Regional Manager Rick"
+  },
+  {
+    "name": "Reverse Rick Outrage"
+  },
+  {
+    "name": "Rick D. Sanchez III"
+  },
+  {
+    "name": "Rick Guilt Rick"
+  },
+  {
+    "name": "Rick Prime"
+  },
+  {
+    "name": "Rick D-99"
+  },
+  {
+    "name": "Rick D716"
+  },
+  {
+    "name": "Rick D716-B"
+  },
+  {
+    "name": "Rick D716-C"
+  },
+  {
+    "name": "Rick Sanchez"
+  },
+  {
+    "name": "Rick J-22"
+  },
+  {
+    "name": "Rick K-22"
+  },
+  {
+    "name": "Rick Sanchez"
+  },
+  {
+    "name": "Ricktiminus Sancheziminius"
+  },
+  {
+    "name": "Robot Rick"
+  },
+  {
+    "name": "Simple Rick"
+  },
+  {
+    "name": "Slow Rick"
+  },
+  {
+    "name": "Solicitor Rick"
+  },
+  {
+    "name": "Teacher Rick"
+  },
+  {
+    "name": "The Scientist Formerly Known as Rick"
+  },
+  {
+    "name": "Tiny Rick"
+  },
+  {
+    "name": "Toxic Rick"
+  },
+  {
+    "name": "Wall Crawling Rick"
+  },
+  {
+    "name": "Unknown Rick"
+  },
+  {
+    "name": "Woman Rick"
+  },
+  {
+    "name": "Yellow Shirt Rick"
+  },
+  {
+    "name": "Zeta Alpha Rick"
+  },
+  {
+    "name": "Super Weird Rick"
+  },
+  {
+    "name": "Communication's Responsible Rick"
+  },
+  {
+    "name": "Teleportation's Responsible Rick"
+  },
+  {
+    "name": "SEAL Team Rick"
+  },
+  {
+    "name": "SEAL Team Rick"
+  },
+  {
+    "name": "SEAL Team Rick"
+  },
+  {
+    "name": "SEAL Team Rick"
+  },
+  {
+    "name": "Baby Rick"
+  },
+  {
+    "name": "Hairdresser Rick"
+  },
+  {
+    "name": "Journalist Rick"
+  },
+  {
+    "name": "Private Sector Rick"
+  },
+  {
+    "name": "Retired General Rick"
+  },
+  {
+    "name": "Secret Service Rick"
+  },
+  {
+    "name": "Steve Jobs Rick"
+  },
+  {
+    "name": "Sheik Rick"
+  },
+  {
+    "name": "Modern Rick"
+  },
+  {
+    "name": "Tan Rick"
+  },
+  {
+    "name": "Visor Rick"
+  },
+  {
+    "name": "Colonial Rick"
+  },
+  {
+    "name": "P-Coat Rick"
+  },
+  {
+    "name": "Hologram Rick"
+  },
+  {
+    "name": "Fascist Rick"
+  },
+  {
+    "name": "Fascist Rick’s Clone"
+  },
+  {
+    "name": "Fascist Shrimp Rick"
+  },
+  {
+    "name": "Fascist Shrimp Rick’s Clone"
+  },
+  {
+    "name": "Fascist Teddy Bear Rick"
+  },
+  {
+    "name": "Fascist Teddy Bear Rick’s Clone"
+  },
+  {
+    "name": "Wasp Rick"
+  },
+  {
+    "name": "Wasp Rick’s Clone"
+  },
+  {
+    "name": "Rick Sanchez"
+  },
+  {
+    "name": "Rick’s Disguise"
+  },
+  {
+    "name": "Scarecrow Rick"
+  },
+  {
+    "name": "Glockenspiel Rick"
+  },
+  {
+    "name": "Wicker Rick"
+  },
+  {
+    "name": "Metal Rick"
+  },
+  {
+    "name": "Gun Brain Rick"
+  },
+  {
+    "name": "Squid Costume Rick"
+  },
+  {
+    "name": "Too Cute to Murder Rick"
+  },
+  {
+    "name": "Turkey Rick"
+  },
+  {
+    "name": "Big Fat rick"
+  },
+  {
+    "name": "Hothead Rick"
+  },
+  {
+    "name": "Wrap-it-up Little Rick"
+  },
+  {
+    "name": "Yo-yo Rick"
+  },
+  {
+    "name": "Young Memory Rick"
+  },
+  {
+    "name": "Rick's Garage"
+  },
+  {
+    "name": "Memory Rick"
+  },
+  {
+    "name": "Memory Rick"
+  },
+  {
+    "name": "Stan Lee Rick"
+  },
+  {
+    "name": "Bald Rick"
+  },
+  {
+    "name": "Punk Rick"
+  },
+  {
+    "name": "Party Rick"
+  },
+  {
+    "name": "Scar Rick"
+  },
+  {
+    "name": "Long Hair Rick"
+  },
+  {
+    "name": "Redhead Rick"
+  }
 ]

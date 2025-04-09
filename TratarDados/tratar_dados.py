@@ -16,22 +16,34 @@ class TratarDadosAPI:
             json.dump(dados, arquivo, ensure_ascii=False, indent=4)
 
     def buscar_dados(self, endpoint, filtros={}):
-        nomes_personagens = []
+        personagens_detalhes = []
         pagina = 1
         
         while True:
-            filtros['page'] = pagina
+            filtros['page'] = pagina  
             try:
                 dados = self.fazer_requisicao(endpoint, filtros)
-                nomes_personagens.extend([personagem['name'] for personagem in dados['results']])
+                
+                for personagem in dados['results']:
+                    detalhes = {}
+                    for chave in filtros.keys():  
+                        if chave in personagem:
+                            detalhes[chave] = personagem[chave]
+                        else:
+                            detalhes[chave] = 'Desconhecido'
+                    personagens_detalhes.append(detalhes)
                 
                 if not dados['info']['next']:
                     break
                 
-                pagina += 1
+                pagina += 1  
+
             except Exception as e:
                 print(str(e))
                 break
         
-        self.salvar_dados('data/.json', nomes_personagens) 
-        return nomes_personagens
+        for personagem in personagens_detalhes:
+            personagem.pop('page', None)
+
+        self.salvar_dados('Data/.json', personagens_detalhes)  
+        return personagens_detalhes
