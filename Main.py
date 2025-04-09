@@ -1,14 +1,15 @@
-import requests
+from TratarDados import TratarDadosAPI
 
-def fetch_data(endpoint, filters={}):
-    url = f'https://rickandmortyapi.com/api/{endpoint}'
-    response = requests.get(url, params=filters)
-    
-    return response.json() if response.status_code == 200 else None
+def main():
+    tratador = TratarDadosAPI()  
+    filtros  = {'name': 'Rick'}
 
-characters = fetch_data('character', {'name': 'Rick'})
+    dados_personagens = tratador.buscar_dados('character', filtros)
 
-if characters:
-    print(characters)
-else:
-    print('Erro ao consultar valores')
+    if dados_personagens:
+        print("Nomes obtidos e salvos no arquivo .json")
+    else:
+        print("Não foi possível obter os dados.")
+
+if __name__ == '__main__':
+    main()
